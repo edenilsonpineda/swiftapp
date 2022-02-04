@@ -1,4 +1,6 @@
 // Constants and Variables
+// see: https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
+
 let label = "The width is: "
 let width: Double = 59.51
 
@@ -73,7 +75,9 @@ var optionalString: String? = "Hello"
 print(optionalString == nil)
 
 /*
- If the optional value is nil, the conditional is false and the code in braces is skipped. Otherwise, the optional value is unwrapped and assigned to the constant after let, which makes the unwrapped value available inside the block of code.
+ If the optional value is nil, the conditional is false and the code in braces is skipped.
+ Otherwise, the optional value is unwrapped and assigned to the constant after let,
+ which makes the unwrapped value available inside the block of code.
  */
 var optionalName: String? = nil
 var greeting = "Hello!"
