@@ -148,3 +148,17 @@ func greet(person: String, day: String) -> String {
 }
 
 print(greet(person: "Bob", day: "Thursday"))
+
+
+
+
+// Integer conversion
+let twoThousand = 2_000
+let one = 1
+let twoThousandAndOne = twoThousand + one
+
+print(twoThousandAndOne)
+
+// Print tuple value
+let tuple = Tuple()
+tuple.printTupleValues()
